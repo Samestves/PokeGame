@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Pokemon</title>
+        <link rel="stylesheet" href="./css/moke.css">
+        <link rel="icon" href="icono.png">
+    </head>
+    <body>
+        <h1>Pokemon 🔥💧🌱</h1>
+
+        <section id="seleccionar-mascota">
+            <h2>Выберите своего питомца:</h2>
+
+            <label for="hipodoge">Hipodoge</label>
+            <input type="radio" name="mascota" id="hipodoge" />
+            
+            <label for="capipepo">Capipepo</label>
+            <input type="radio" name="mascota" id="capipepo" />
+            
+            <label for="ratigueya">Ratigueya</label>
+            <input type="radio" name="mascota" id="ratigueya" />
+
+            <button id="boton-mascota">Выберите</button>
+        </section>
+
+        <section id="seleccionar-ataque">
+            <h2>Выберите свою атаку:</h2>
+
+            <p>Ваш питомец <span id="mascota-jugador"></span> есть <span id="vidas-jugador">3</span> жизни</p>
+            <p>Талисман <span id="mascota-enemigo"></span> у врага <span id="vidas-enemigo">3</span> жизни</p>
+
+            <p>
+                <button id="boton-fuego">Огонь 🔥</button>
+                <button id="boton-agua">Вода 💧</button>
+                <button id="boton-tierra">Земля 🌱</button>
+            </p>
+        </section>
+
+        <section id="mensajes">
+        </section>
+
+        <section id="reiniciar">
+            <button id="boton-reiniciar">Перезапустить</button>
+        </section>
+
+        <script src="./js/mokepon.js"></script>
+    </body>
+</html>
